@@ -249,7 +249,6 @@ def create_builtin_tools() -> list[ToolSpec]:
         # existing tools...
     ]
 ```
-```
 
 ### Configure MCP servers
 
