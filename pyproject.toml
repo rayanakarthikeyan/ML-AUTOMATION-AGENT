@@ -1,5 +1,5 @@
 [project]
-name = "ml-automation-agent"
+name = "agent"
 version = "0.1.0"
 description = "A personal ML automation agent by Rayana Karthikeyan"
 authors = [
