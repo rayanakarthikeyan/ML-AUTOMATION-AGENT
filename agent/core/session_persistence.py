@@ -453,8 +453,8 @@ def get_session_store() -> NoopSessionStore | MongoSessionStore:
     global _store
     if _store is None:
         uri = os.environ.get("MONGODB_URI")
-            db_name = os.environ.get("MONGODB_DB", "ml-automation-agent")
-            _store = MongoSessionStore(uri, db_name) if uri else NoopSessionStore()
+        db_name = os.environ.get("MONGODB_DB", "ml-automation-agent")
+        _store = MongoSessionStore(uri, db_name) if uri else NoopSessionStore()
     return _store
 
 
