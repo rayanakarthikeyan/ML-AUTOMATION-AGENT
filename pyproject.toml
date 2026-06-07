@@ -1,7 +1,10 @@
 [project]
 name = "ml-automation-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "A personal ML automation agent by Rayana Karthikeyan"
+authors = [
+    { name = "Rayana Karthikeyan", email = "rayanakarthikeyan@gmail.com" },
+]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
